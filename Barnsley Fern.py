@@ -36,5 +36,5 @@ for i in range(0, 50000):
 
 # make and show the scatterplot
 plt.scatter(x, y, s = 0.2, edgecolor ='#5dbb63') 
-
+plt.axis("off")
 plt.show()
