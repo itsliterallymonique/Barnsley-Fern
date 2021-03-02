@@ -35,6 +35,7 @@ for i in range(0, 50000):
         y.append(0.26*(x[i]) + 0.24*(y[i])+0.44) 
 
 # make and show the scatterplot
-plt.scatter(x, y, s = 0.2, edgecolor ='#5dbb63') 
+plt.scatter(x, y, s = 0.2, c ='#5dbb63') 
 plt.axis("off")
+plt.savefig('barnsley_fern.png', dpi=300, bbox_inches='tight')
 plt.show()
